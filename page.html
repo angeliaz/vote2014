@@ -1,0 +1,452 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>2014美国大选_资讯频道_凤凰网</title>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="icon" href="http://www.ifeng.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://y2.ifengimg.com/a/2014/1023/base.css">
+    <link rel="stylesheet" href="css/page.css">
+//     <script type="text/javascript">
+//         var num = null;
+// var b = null;
+// var obj = {};
+// var k = 0;
+// var n = 0;
+// var chars = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+// var seats = [7,1,9,4,53,7,5,1,27,14,2,2,18,9,4,4,6,6,2,8,9,14,8,4,8,1,3,4,2,12,3,27,13,1,16,5,5,18,2,7,1,9,36,4,1,11,10,3,8,1];
+// obj.timestamp = new Date().getTime();
+// setInterval(function(){
+//     obj.timestamp = new Date().getTime();
+// },2000)
+// obj.states = [];
+
+// for(var n = 0 ; n < 3 ; n++){
+//     obj.states[n] = {};
+//     obj.states[n].state = [];
+//     obj.states[n].condition = 1;
+//     obj.states[n].total = [0,0,0];
+//     (function(n){
+//         setTimeout(function(){
+//             obj.states[n].condition = 3;
+//         },10000)
+//     })(n)
+// }
+
+// setInterval(function(){loop(0);loop1(1);loop2(2);},4000);
+
+
+
+// for(var j = 0 ; j < 50 ; j++){
+//     num = ranNum(1,2,'int');
+//     if( num == 1 ){
+//         obj.states[0].state[j] = [num];
+//     }else{
+//         obj.states[0].state[j] = [num, 0, 0, 0, 0, 0 ,0 ];
+//     }
+// }
+
+// for(var i = 0 ; i < 36 ; i++){
+//     num = ranNum(1,2,'int');
+//     if( num == 1 ){
+//         obj.states[1].state[i] = [num];
+//     }else{
+//         obj.states[1].state[i] = [num, 0, 0, 0, 0, 0 ,0 ,""];
+//     }
+// }
+
+// for(var m = 0 ; m < 36 ; m++){
+//     num = ranNum(1,2,'int');
+//     if( num == 1 ){
+//         obj.states[2].state[m] = [num];
+//     }else{
+//         obj.states[2].state[m] = [num, 0, 0, 0, 0, 0 ,0 ,""];
+//     }
+// }
+
+
+
+// function loop1(n){
+//     for(var j = 0 ; j < 36 ; j++){
+//         num = ranNum(1,2,'int');
+//         if(k >= 30){
+//             num = ranNum(2,3,'int');
+//         }
+//         if(obj.states[n].state[j][0]==1){(1 < num) && (obj.states[n].state[j] = [2, 0, 0, 0, 0, 0 ,0 ,""]);}
+//         if(obj.states[n].state[j][0]==2){           
+//             (2 < num) && (obj.states[n].state[j][0] = 3);
+//             loop1Arr(obj.states[n].state[j],[100000,300000]); 
+//             //obj.states[n].state[j][7] = b;
+//         }
+//         if(obj.states[n].state[j][0]==3){
+//             b = strMixed(10);
+//             obj.states[n].state[j][7] = b;
+//         }
+//     }
+//     loopTotal(obj.states[n].total,100);  
+//     k++;
+// }
+
+// function loop2(n){
+//     for(var j = 0 ; j < 36 ; j++){
+//         num = ranNum(1,2,'int');
+//         if(k >= 30){
+//             num = ranNum(2,3,'int');
+//         }
+//         if(obj.states[n].state[j][0]==1){(1 < num) && (obj.states[n].state[j] = [2, 0, 0, 0, 0, 0 ,0 ,""]);}
+//         if(obj.states[n].state[j][0]==2){       
+//             (2 < num) && (obj.states[n].state[j][0] = 3);
+//             loop1Arr(obj.states[n].state[j],[100000,300000]); 
+//             //obj.states[n].state[j][7] = b;
+//         }
+//         if(obj.states[n].state[j][0]==3){
+//             b = strMixed(10);
+//             obj.states[n].state[j][7] = b;
+//         }
+//     }
+//     loopTotal(obj.states[n].total,50);  
+//     k++;
+// }
+
+// function loop(n){
+//     for(var j = 0 ; j < 50 ; j++){
+//         num = ranNum(1,2,'int');
+//         if(k >= 10){
+//             num = ranNum(2,3,'int');
+//         }
+//         if(obj.states[n].state[j][0]==1){(1 < num) && (obj.states[n].state[j] = [2, 0, 0, 0, 0, 0 ,0 ]);}
+//         if(obj.states[n].state[j][0]==2){
+//             (2 < num) && (obj.states[n].state[j][0] = 3);
+//             //console.log(obj.states[n].state[j],j)
+//             loopArr(obj.states[n].state[j],seats[j]);
+//         }
+//     }
+//     loopTotal(obj.states[n].total,435); 
+//     k++;
+// }
+
+
+
+
+// function ranNum(a,b,type){
+//     if(type == 'float'){
+//         return +(Math.random()*(b-a)+a).toFixed(0);
+//     }
+//     if(type == 'int'){
+//         return Math.round(Math.random()*(b-a)+a);
+//     }  
+// }
+
+
+
+// function strMixed(n) {
+//     var res = "";
+//     for(var i = 0; i < n ; i ++) {
+//         var id = Math.ceil(Math.random()*25);
+//         res += chars[id];
+//     }
+//     return res;
+// }
+
+
+// function loopTotal(arr,seat){
+
+//     if(arr[0] + arr[1] + arr[2] == seat){
+//         return ;
+//     }
+//     if( n > 10){
+//         arr[0] += ranNum(0,seat - arr[0] - arr[1] - arr[2],'int');
+//         arr[1] += ranNum(0,seat - arr[0] - arr[1] - arr[2],'int');
+//         arr[2] += ranNum(0,seat - arr[0] - arr[1] - arr[2],'int');
+//     }else{
+//         arr[0] += ranNum(0,10,'int');
+//         arr[1] += ranNum(0,10,'int');
+//         arr[2] += ranNum(0,1,'int');
+//     }
+//     n++;
+//     //console.log(arr,seat,n)
+// }
+
+// function loop1Arr(arr,arg){
+    
+//     arr[4] += ranNum(arg[0],arg[1],'int');
+//     arr[5] += ranNum(arg[0],arg[1],'int');
+//     arr[6] += ranNum(parseInt(arg[0]/100),parseInt(arg[1]/100),'int');
+    
+//     var num = arr[4] + arr[5] + arr[6];
+//     arr[1] = arr[4] * 100 / num;
+//     arr[2] = arr[5] * 100 / num;
+//     arr[3] = arr[6] * 100 / num;
+// }
+
+
+// function loopArr(arr,seat){
+//     if(arr[4] + arr[5] + arr[6] >= seat){
+//         return ;
+//     }
+//     arr[4] += ranNum(0,seat - arr[4] - arr[5] - arr[6],'int');
+//     arr[5] += ranNum(0,seat - arr[4] - arr[5] - arr[6],'int');
+//     arr[6] += ranNum(0,seat - arr[4] - arr[5] - arr[6],'int');
+
+//     var num = arr[4] + arr[5] + arr[6];
+//     arr[1] = Math.round(arr[4] * 100 / num);
+//     arr[2] = Math.round(arr[5] * 100 / num);
+//     arr[3] = Math.round(arr[6] * 100 / num);
+//     //console.log(arr,seat)
+// }
+    // </script>
+</head>
+<body>
+<div class="p-wrap">
+    <!--顶部分享 + 三个白块-->
+    <div class="p-topBox p-col">
+        <!--预留shareDIV-->
+        <div class="p-topShareBlock">
+            <ul class="mod-shareList clearfix">
+                <li>
+                    <a href="##" class="weibo"></a>
+                </li>
+                <li>
+                    <a href="##" class="qzone"></a>
+                </li>
+                <li>
+                    <a href="##" class="tt"></a>
+                </li>
+                <li>
+                    <a href="##" class="weixin"></a>
+                    <span class="sj" style="display: none;overflow: hidden;"></span>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix">
+         <div class="p-topCellBlock" id="boxL">
+            <div class="locTitle locTitle-1"><span class="chName">众议院</span> / <span class="engName">House</span></div>
+            <div class="locCon">
+                <span class="numL">0</span>
+                <span class="numR">0</span>
+                <span class="tipsL">选前席位：199</span>
+                <span class="tipsR">选前席位：233</span>
+                <span class="iconL">民主党</span>
+                <span class="iconR">共和党</span>
+                <span class="iconC">218获胜</span>
+                <span class="icon-win" style="left:0px;display:none;"></span>
+                <div class="colorLineBox">
+                    <div class="colorLineBox-inner">
+                        <div class="colorC" style="width:20%"></div>
+                        <div class="colorL" style="width:0"></div>
+                        <div class="colorR" style="width:40%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="p-topCellBlock" id="boxM">
+            <div class="locTitle locTitle-2"><span class="chName">参议院</span> / <span class="engName">Senate</span></div>
+            <div class="locCon">
+                <span class="numL">0</span>
+                <span class="numR">0</span>
+                <span class="tipsL">选前席位：199</span>
+                <span class="tipsR">选前席位：233</span>
+                <span class="iconL">民主党</span>
+                <span class="iconR">共和党</span>
+                <span class="iconC">218获胜</span>
+                <span class="icon-win" style="left:0px;display:none;"></span>
+                <div class="colorLineBox">
+                    <div class="colorLineBox-inner">
+                        <div class="colorC" style="width:0"></div>
+                        <div class="colorL" style="width:0"></div>
+                        <div class="colorR" style="width:0"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="p-topCellBlock p-topCellBlock-last" id="boxR">
+            <div class="locTitle locTitle-3"><span class="chName">众议院</span> / <span class="engName">House</span></div>
+            <div class="locCon">
+                <span class="numL">0</span>
+                <span class="numR">0</span>
+                <span class="tipsL">选前席位：199</span>
+                <span class="tipsR">选前席位：233</span>
+                <span class="iconL">民主党</span>
+                <span class="iconR">共和党</span>
+                <span class="iconC">218获胜</span>
+                <span class="icon-win" style="left:0px;display:none;"></span>
+                <div class="colorLineBox">
+                    <div class="colorLineBox-inner">
+                        <div class="colorC" style="width:0"></div>
+                        <div class="colorL" style="width:0"></div>
+                        <div class="colorR" style="width:0"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--地图-->
+    <div class="p-voteMap">
+        <div class="p-voteMapInner p-col">
+            <div class="p-mapTab">
+                <ul class="tab-list clearfix">
+                    <li>
+                        <a  class="cur" href="javascript:void(0);">众议院选举</a>
+                    </li>
+                    <li>
+                        <a  href="javascript:void(0);">参议院选举</a>
+                    </li>
+                    <li class="lastLi">
+                        <a  href="javascript:void(0);">州长选举</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="p-mapCon">
+                <!--angelia:地图dom-->
+                    <div id="map_main">
+                        
+                    </div>
+                <!--angelia:地图dom-->
+                <div class="p-mapConRef"><a href="javascript:void(0);" class="icon-refresh"></a></div>
+                <div class="p-mapConRefTips"><span class="txt">票数每<em>3秒</em>自动更新一次<br/>亦可点击手动刷新</span></div>
+                <div class="p-mapConLB">
+                    <p>鼠标滑过可查看各州开票情况</p>
+                    <p>数据截至：北京时间<span>11月7日 10:55</span></p>
+                    <p>投票截止：北京时间11月7日 **:** </p>
+                </div>
+                <div class="p-mapConRB">
+                    <table width="100%">
+                        <colgroup>
+                            <col width="70">
+                            <col width="35">
+                            <col width="35">
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th>获胜</th>
+                            <th>领先</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="name">民主党(D)：</td>
+                                <td><div class="gro gro-1"></div></td>
+                                <td><div class="gro gro-2"></div></td>
+                            </tr>
+                            <tr>
+                                <td  class="name">共和党(R)：</td>
+                                <td><div class="gro gro-3"></div></td>
+                                <td><div class="gro gro-4"></div></td>
+                            </tr>
+                            <tr>
+                                <td class="name">其&nbsp;&nbsp;&nbsp;他(O)：</td>
+                                <td><div class="gro gro-5"></div></td>
+                                <td><div class="gro gro-6"></div></td>
+                            </tr>
+                            <tr>
+                                <td  class="name">平&nbsp;&nbsp;&nbsp;局：</td>
+                                <td><div class="gro gro-9"></div></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td  class="name">未计票：</td>
+                                <td><div class="gro gro-7"></div></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td  class="name">不参选：</td>
+                                <td><div class="gro gro-8"></div></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--上图说明 -->
+            <div class="p-mapTipsBox">
+                <div class="p-mapTipsBoxInner">
+                    <p><span class="emp">上图说明: </span>2012美国总统大选于北京时间11月7日07:00正式计票，各州分开统计票数，预计在5个小时内统计完毕，宣布结果。根据美国选举制度，大部分州采用赢者通吃原则，即如果候选人在这个州获得多数选民票数，他就会赢得该州的全部选举人票。最终，候选人只要获得270张及以上选举人票，即可当选美国总统。在本专题中的美国版图上，您首先看到的是各州的选举人票数，鼠标滑上去之后</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--地图end-->
+    <!--angelia:鼠标浮上地图遮罩begin-->
+    <div id="map_pop">
+        <div class="title">阿拉斯加州</div>
+        <div class="poll_count">众议院席位：<em>99</em>席</div>
+        <div class="ipad_pop_close"></div>
+        <div id="js_bar_box">
+
+            <div class="d_bar">
+                <div class="d_per"></div>
+            </div>
+            <div class="d_sign"></div>
+            <div class="d_info">民主党(D)<br/><em>0票</em></div>
+
+            <div class="r_bar">
+                <div class="r_per"></div>
+            </div>
+            <div class="r_sign"></div>
+            <div class="r_info">共和党(R)<br/><em>0票</em></div>
+
+            <div class="o_bar">
+                <div class="o_per"></div>
+            </div>
+            <div class="o_sign"></div>
+            <div class="o_info">其它(O)<br/><em>0票</em></div>
+        </div>
+    </div>
+    <!--angelia:鼠标浮上地图遮罩end-->
+    <!--表格-->
+    <div class="p-voteTableBox p-col">
+        <div class="p-voteTableTitle">
+            <h4 class="title">各州选情</h4>
+        </div>
+        <table class="p-voteTable">
+            <colgroup>
+                <col width="*">
+                <col width="110">
+                <col width="140">
+                <col width="110">
+                <col width="150">
+                <col width="150">
+                <col width="150">
+            </colgroup>
+            <thead>
+            <tr>
+                <th class="first">州名</th>
+                <th class="special">众议院席位</th>
+                <th>开票时间</th>
+                <th>计票状态</th>
+                <th class="special">民主党席位</th>
+                <th class="special">其他席位</th>
+                <th class="special">共和党席位</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <!--gototop-->
+    <div style="" class="mod-gotoTop ">
+        <a href="javascript:void(0);" class="iconToTop" style="display:none;"></a>
+    </div>
+</div>
+<script src="http://y0.ifengimg.com/vote/usa2012/jquery-1.8.0.js" ></script>
+<script>
+    //jQuery.noConflict();
+</script>
+<!-- <script src="http://y0.ifengimg.com/vote/usa2012/raphael.min.js" ></script> -->
+<!-- <script src="http://y2.ifengimg.com/a/2014/1023/paths.js" ></script> -->
+// <script>
+//     var oWinIcon = '<img src="http://y0.ifengimg.com/vote/usa2012/vv01.gif" />';
+//     var rWinIcon = '<img src="http://y0.ifengimg.com/vote/usa2012/vv02.gif" />';
+//     var usaUpdateUrl = "scripts/testData.js";
+//     var usaMaxLevel = 20;
+//     var usaTimeInterval = 3000;
+// </script>
+<!-- <script src="http://y2.ifengimg.com/a/2014/1023/points.js" ></script> -->
+<!-- <script src="scripts/map.js" ></script> -->
+
+</body>
+</html>
