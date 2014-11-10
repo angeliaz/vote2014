@@ -1,0 +1,40 @@
+<!DOcTYPE html>
+<html>
+	<head>
+		<title>MyAudio</title>
+		<style>
+			#content {width:1000px;margin:0 auto;height:300px;}
+			#toolBar {margin:0 auto; width:1000px;}
+			#timeControl {width:1000px;height:10px;color: #00f;}
+			#volumn {width:300px; height:10px;color:#00f;}
+		</style>
+	</head>
+	<body>
+		<header>Audio Test</header>
+		<nav>
+			<a href="#">One</a>
+			<a href="#">Two</a>
+			<a href="#">Three</a>
+		</nav>
+		<div class="wrap">
+			<div id="content">
+				sdf
+				<canvas id="myCanvas"></canvas>
+				<audio id="myAudio" src="http://labs.music.baidu.com/demo/interactions/visualization/media_s/Shen_Gu_You_Lan.mp3" controls="controls"></audio>
+			</div>
+			<div id="toolBar">
+				<div id="playBtn">播放</div>
+				<div id="pauseBtn">暂停</div>
+				<div id="timeControl">time</div>
+				<div id="timeShow">01:01/99:99</div>
+				<div id="soundBtn">静音</div>
+				<div id="volumn">volumn</div> 
+			</div>
+		</div>
+		<footer>copyright</footer>
+		<script>
+			var audio = document.getElementById('myAudio');
+			//audio.play();
+		</script>
+	</body>
+</html>
